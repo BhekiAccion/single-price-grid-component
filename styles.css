@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    background-color: hsl(204, 43%, 93%);
+}
+
+.container{
+    width: 45%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.top{
+    padding: 20px;
+    background-color: #fff;
+    padding-bottom: 40px;
+    color: hsl(218, 22%, 67%);
+}
+
+.bottom{
+    display: flex;
+    width: 100%;
+    color: #fff;
+}
+
+.box1{
+    width: 50%;
+    padding: 30px;
+    background-color: hsl(179, 62%, 43%);
+    line-height: 1.7em;
+    
+}
+
+
+
+.box2{
+    width: 50%;
+    background-color: hsl(179, 62%, 46%);
+    padding: 30px;
+    color: hsl(204, 43%, 93%);
+}
+
+h1{
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 20px;
+}
+
+.top h2{
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: hsl(71, 73%, 54%);
+    padding: 10px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: #fff;
+}
+
+.bottom h2{
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.dollar{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.text{
+    color: hsl(204, 43%, 93%);
+}
+
+@media( max-width: 500px){
+
+    .container{
+        width: 90%;
+    }
+
+    .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box1, .box2{
+        width: 100%;
+    }
+}
